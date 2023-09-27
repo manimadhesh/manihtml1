@@ -1,0 +1,158 @@
+h1{
+    color:#1098ad;
+    float:left;
+    font-style:italic;
+    font-size:20px;
+   text-transform: uppercase;
+   margin-top: -1px;
+   margin-bottom: 3px;
+   padding-bottom: 20px;
+   
+ 
+   
+}
+nav{
+    float:right;
+    /* margin-top: 2px; */
+}
+nav a:link{
+    /* background-color: rgb(8, 8, 8); */
+    /* margin-right: 30px;*/
+    margin:7px;
+    margin-top:6px; 
+    display:inline-block;
+}
+/* <!-- method:"1" clearing flots editing 👇-->*/
+
+/* .clear{
+    clear:both;
+} */
+   /* <!--method:"1" 👆clearing flots editing  --> */
+   
+   /* <!-- method:"2" clearing flots editing 👇-->*/
+   .clearfix::after{
+    clear:both;
+    content:"";
+    display:block;
+   }
+      /* <!--method:"2" 👆clearing flots editing  --> */
+.main-header{
+    background-color:#f7f7f7;
+/*   
+    padding-left: 20px;;  */
+
+   
+}
+h2{
+    font-size:38px;
+    text-transform:uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color:#1098ad;
+    /* padding-top: 100px; */
+     /* background-color: rgb(216, 213, 209); */
+    /* width: 73%; */
+    position:relative; 
+}
+h2::after{
+    content: "top";
+    color:black;
+    background-color:yellow;
+    font-size:16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:5px 6px;
+    position:absolute;
+    right:160px;
+    top: -12px;
+
+}
+h6{
+   font-size:22px;
+   text-transform:uppercase;
+   text-align:center;
+   /* background-color: blueviolet; */
+   margin: 8px;
+   /* border: 2px solid black; */
+   padding: 2px;
+  
+}
+
+body{
+    position:relative;
+    border-top: 5px solid rgb(96, 187, 223);
+    border-bottom: 5px solid rgb(96, 187, 223);
+}
+.button{
+    font-size: 20px;e
+    background-color: blueviolet;
+    display:inline-block;
+    cursor:pointer;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.aside{
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom:5px solid #1098ad;
+    /* width: 40%; */
+   
+}
+a:link{
+    color: rgba(37, 40, 197, 0.699);
+    text-decoration:none;
+    
+}
+a:visited{
+    color: rgba(37, 40, 197, 0.699);
+    text-decoration: underline;
+    
+}
+a:hover{
+    color:orangered;
+}
+a:active{
+    background-color: black;
+}
+/* centering our page */
+.container{
+    width:1200px;
+   margin:auto; 
+   position:relative;
+}
+/* aside la iruka ul(bullet points) ah remove pannirukan */
+.related{
+    list-style:none;
+   
+}
+.related-author{
+    float:left;
+}
+.codeimg1{
+    margin-top:40px;
+    margin-left:0px;
+}
+.authorpara{
+    /* margin-bottom: 14px;
+    margin-top:14px; */
+    padding-top: 5px;
+    padding-left: 20px;
+  float:left;
+}
+article{
+    /* background-color: green; */
+    width:825px;
+    float:left;
+}
+aside{
+    /* background-color: red; */
+    width:300px;
+    float:right;
+}
+footer{
+    background-color:yellow;
+    clear:both;
+}
+
